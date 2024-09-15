@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khare.AI - Learn Smarter</title>
+    <link rel="stylesheet" href="landing_page_style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Khare.AI</h1>
+            <p>Learn Smarter, Not Harder</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h2>Welcome to Khare.AI</h2>
+            <p>Your gateway to interactive and personalized learning experiences.</p>
+            <a href="#" class="cta-button">Explore Courses</a>
+        </section>
+
+        <!-- Container to align features and form side by side -->
+        <div class="content-container">
+            <section class="features">
+                <h3>Why Choose Khare.AI?</h3>
+                <div class="feature-box">
+                    <h4>Interactive Lessons</h4>
+                    <p>Engage with hands-on activities that make learning fun and effective.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>Expert Instructors</h4>
+                    <p>Learn from the best in the industry with years of experience and knowledge.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>Personalized Learning</h4>
+                    <p>Get a customized learning plan that suits your pace and style.</p>
+                </div>
+            </section>
+
+            <section class="demo-class">
+                <h3>Sign Up for a Free Demo Class</h3>
+                <form action="welcome.html" method="GET" class="demo-form" id="signupForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <label for="course">Preferred Course:</label>
+                    <select id="course" name="course" required>
+                        <option value="">Select a Course</option>
+                        <option value="math">Mathematics</option>
+                        <option value="science">Science</option>
+                        <option value="english">English</option>
+                    </select>
+
+                    <button type="submit" class="submit-button">Book Your Free Class</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Khare.AI. All Rights Reserved.</p>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
